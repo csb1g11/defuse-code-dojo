@@ -21,8 +21,8 @@
 - If you cut a purple cable you can't cut a purple, green, orange or white cable
 
 - For each input, you should print out whether the bomb exploded or was safely defused
-- 1)  ['white', 'red', 'green', 'white']
-- 2)  ['white', 'orange', 'green', 'white']
+ 1.  ['white', 'red', 'green', 'white']
+ 2.  ['white', 'orange', 'green', 'white']
 
 ### Part 2
 - Start with either with a white or a red wire
@@ -36,23 +36,23 @@
 - If you ever pick a black wire you will then have to choose between green, orange and black
 
 - For each input, you should print out whether the bomb exploded or was safely defused
-- 1)  ['white', 'white', 'red', 'white', 'orange', 'black', 'black', 'green', 'orange']
-- 2)  ['white', 'white', 'green', 'orange', 'green']
-- 3)  ['white', 'white', 'red', 'red', 'red', 'white', 'white', 'black', 'green', 'orange']
-- 4)  ['white', 'black', 'black', 'black', 'black', 'green', 'orange']
-- 5)  ['black', 'green', 'green']
-- 6)  ['red', 'red', 'white', 'orange', 'black', 'green']
+ 1.  ['white', 'white', 'red', 'white', 'orange', 'black', 'black', 'green', 'orange']
+ 2.  ['white', 'white', 'green', 'orange', 'green']
+ 3.  ['white', 'white', 'red', 'red', 'red', 'white', 'white', 'black', 'green', 'orange']
+ 4.  ['white', 'black', 'black', 'black', 'black', 'green', 'orange']
+ 5.  ['black', 'green', 'green']
+ 6.  ['red', 'red', 'white', 'orange', 'black', 'green']
 
 ### Part 3
 - Given a set of wires and their quantity, determine whether the bomb can be defused
 
 - For each input, print out whether the bomb can be defused
-- 1)  {'white': 4, 'red': 3, 'black': 4, 'green': 1, 'orange': 1}
-- 2)  {'white': 4, 'red': 3, 'black': 4, 'green': 0, 'orange': 1}
-- 3)  {'white': 3, 'red': 1, 'black': 48, 'green': 1, 'orange': 2}
-- 4)  {'white': 3, 'red': 1, 'black': 48, 'green': 1, 'orange': 1}
+ 1.  {'white': 4, 'red': 3, 'black': 4, 'green': 1, 'orange': 1}
+ 2.  {'white': 4, 'red': 3, 'black': 4, 'green': 0, 'orange': 1}
+ 3.  {'white': 3, 'red': 1, 'black': 48, 'green': 1, 'orange': 2}
+ 4.  {'white': 3, 'red': 1, 'black': 48, 'green': 1, 'orange': 1}
 
 ### Where are these challenges from?
-- These are reddit daily programmer challenges which I have consolidated into one place. You can visit the originals using the links below, but please don't do this until you've attempted them! 
--- https://www.reddit.com/r/dailyprogrammer/comments/5e4mde/20161121_challenge_293_easy_defusing_the_bomb/
--- https://www.reddit.com/r/dailyprogrammer/comments/5emuuy/20161124_challenge_293_intermediate_defusing_the/
+- These are reddit daily programmer challenges which I have consolidated into one place. You can visit the originals using the links below, but please don't do this until you've attempted them!
+ - https://www.reddit.com/r/dailyprogrammer/comments/5e4mde/20161121_challenge_293_easy_defusing_the_bomb/
+ - https://www.reddit.com/r/dailyprogrammer/comments/5emuuy/20161124_challenge_293_intermediate_defusing_the/
