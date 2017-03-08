@@ -60,5 +60,5 @@
 
 ### Where is this dojo from?
 - These are reddit daily programmer challenges which I have consolidated into one place. You can visit the originals using the links below, but please don't do this until you've attempted them!
- - https://www.reddit.com/r/dailyprogrammer/comments/5e4mde/20161121_challenge_293_easy_defusing_the_bomb/
- - https://www.reddit.com/r/dailyprogrammer/comments/5emuuy/20161124_challenge_293_intermediate_defusing_the/
+ - bit.ly/reddit-defuse-one
+ - bit.ly/reddit-defuse-two
