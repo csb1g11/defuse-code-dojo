@@ -1,6 +1,6 @@
 # defuse-code-dojo
  -  Welcome to this code dojo!
- - The aim is to have fun, work with different people, and explore different approaches to a challenge over the next couple of hours
+ - The aim is to have fun, work with different people, and explore different approaches to a challenge
 - You can use whatever language your team decides
 - You will not be required to submit the code
 
@@ -13,6 +13,10 @@
 - You need to cut the right wires! That is, cutting wires in the right order will defuse the bomb but cutting them in the wrong order or cutting none at all will make it explode
 
 ### Part 1
+ - If you have anything wrong in the wrong order, the bomb will explode
+ - There can be multiple wires with the same colour and these instructions are for one wire at a time
+ - Once you cut a wire you can forget about the previous ones
+
 - If you cut a white cable you can't cut white or black cable
 - If you cut a red cable you have to cut a green one
 - If you cut a black cable it is not allowed to cut a white, green or orange one
@@ -27,6 +31,8 @@
  ```
 
 ### Part 2
+- Now to defuse a more complex bomb...
+
 - Start with either with a white or a red wire
 - If you picked white wire you can either pick another white wire or you can take an orange one
 - If you picked a red wire, then you have the choice between a black and red wire
