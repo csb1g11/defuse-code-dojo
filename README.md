@@ -10,10 +10,9 @@
 - 15 minute wash up, discuss different approaches and demos
 
 ### Challenge
-- You need to cut the right wires! That is, cutting wires in the right order will defuse the bomb but cutting them in the wrong order or cutting none at all will make it explode
+- Determine whether a bomb explodes or is defused given a set of wire cuts. Follow the rules below and print out the result
 
 ### Part 1
-- If you have anything in the wrong order, the bomb will explode
 - There can be multiple wires with the same colour and the instructions below are for one wire at a time
 - Once you cut a wire you can forget about the previous rule
 
