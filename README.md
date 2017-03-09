@@ -17,7 +17,7 @@
 - If you cut a red cable you have to cut a green one
 - If you cut a black cable it is not allowed to cut a white, green or orange one
 - If you cut a orange cable you should cut a red or black one
-- If you cut a green one you have to cut a orange or white one
+- If you cut a green one you have to cut an orange or white one
 - If you cut a purple cable you can't cut a purple, green, orange or white cable
 
 - For each input, you should print out whether the bomb exploded or was safely defused
@@ -29,7 +29,7 @@
 ### Part 2
 - Start with either with a white or a red wire
 - If you picked white wire you can either pick another white wire or you can take an orange one
-- If you picked a red wire you have the choice between a black and red wire
+- If you picked a red wire, then you have the choice between a black and red wire
 - When a second red wire is picked, you can start from rule one again
 - Back to the second rule, if you picked another white one you will have to pick a black or red one now
 - When the red wire is picked, you again go to rule one
