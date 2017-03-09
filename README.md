@@ -49,6 +49,7 @@
 
 ### Part 3
 - Given a set of wires and their quantity, determine whether the bomb can be defused
+- You need to cut all the wires! You can't leave any untouched
 
 - For each input, print out whether the bomb can be defused
 ```
