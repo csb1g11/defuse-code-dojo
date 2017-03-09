@@ -13,15 +13,15 @@
 - Determine whether a bomb explodes or is defused given a set of wire cuts. Follow the rules below and print out the result
 
 ### Part 1
-- There can be multiple wires with the same colour and the instructions below are for one wire at a time
-- Once you cut a wire you can forget about the previous rule
+- There can be multiple wires with the same colour
+- The instructions below are for one wire at a time and once you cut a wire you can forget about the previous rule
 
- - If you cut a white cable you can't cut white or black cable
- - If you cut a red cable you have to cut a green one
- - If you cut a black cable it is not allowed to cut a white, green or orange one
- - If you cut a orange cable you should cut a red or black one
- - If you cut a green one you have to cut an orange or white one
- - If you cut a purple cable you can't cut a purple, green, orange or white cable
+ - If you cut a white cable you can't cut white or black cable next
+ - If you cut a red cable you have to cut a green one next
+ - If you cut a black cable it is not allowed to cut a white, green or orange one next
+ - If you cut an orange cable you should cut a red or black one next
+ - If you cut a green one you have to cut an orange or white one next
+ - If you cut a purple cable you can't cut a purple, green, orange or white cable next
 
 - For each input, you should print out whether the bomb exploded or was safely defused
  ```
