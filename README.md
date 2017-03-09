@@ -1,4 +1,4 @@
-# defuse-code-dojo
+# defuse-code-dojo :boom:
  -  Welcome to this code dojo!
  - The aim is to have fun, work with different people, and explore different approaches to a challenge
 - You can use whatever language your team decides
@@ -6,23 +6,23 @@
 
 ### Layout
 - 15 minute setup and introduction (refreshments will be available)
-- 1 hour coding, ask questions, explore different techniques and try to meet the milestones
+- 1 hour coding, ask questions, explore different techniques
 - 15 minute wash up, discuss different approaches and demos
 
 ### Challenge
 - You need to cut the right wires! That is, cutting wires in the right order will defuse the bomb but cutting them in the wrong order or cutting none at all will make it explode
 
 ### Part 1
- - If you have anything wrong in the wrong order, the bomb will explode
- - There can be multiple wires with the same colour and these instructions are for one wire at a time
- - Once you cut a wire you can forget about the previous ones
+- If you have anything in the wrong order, the bomb will explode
+- There can be multiple wires with the same colour and the instructions below are for one wire at a time
+- Once you cut a wire you can forget about the previous rule
 
-- If you cut a white cable you can't cut white or black cable
-- If you cut a red cable you have to cut a green one
-- If you cut a black cable it is not allowed to cut a white, green or orange one
-- If you cut a orange cable you should cut a red or black one
-- If you cut a green one you have to cut an orange or white one
-- If you cut a purple cable you can't cut a purple, green, orange or white cable
+ - If you cut a white cable you can't cut white or black cable
+ - If you cut a red cable you have to cut a green one
+ - If you cut a black cable it is not allowed to cut a white, green or orange one
+ - If you cut a orange cable you should cut a red or black one
+ - If you cut a green one you have to cut an orange or white one
+ - If you cut a purple cable you can't cut a purple, green, orange or white cable
 
 - For each input, you should print out whether the bomb exploded or was safely defused
  ```
@@ -33,15 +33,15 @@
 ### Part 2
 - Now to defuse a more complex bomb...
 
-- Start with either with a white or a red wire
-- If you picked white wire you can either pick another white wire or you can take an orange one
-- If you picked a red wire, then you have the choice between a black and red wire
-- When a second red wire is picked, you can start from rule one again
-- Back to the second rule, if you picked another white one you will have to pick a black or red one now
-- When the red wire is picked, you again go to rule one
-- On the other hand if you then picked an orange wire, you can choose between green, orange and black
-- When you have to choose between green, orange and black, if you pick either green or orange then choosing the other one will defuse the bomb
-- If you ever pick a black wire you will then have to choose between green, orange and black
+ - Start with either with a white or a red wire
+ - If you picked white wire you can either pick another white wire or you can take an orange one
+ - If you picked a red wire, then you have the choice between a black and red wire
+ - When a second red wire is picked, you can start from rule one again
+ - Back to the second rule, if you picked another white one you will have to pick a black or red one now
+ - When the red wire is picked, you again go to rule one
+ - On the other hand if you then picked an orange wire, you can choose between green, orange and black
+ - When you have to choose between green, orange and black, if you pick either green or orange then choosing the other one will defuse the bomb
+ - If you ever pick a black wire you will then have to choose between green, orange and black
 
 - For each input, you should print out whether the bomb exploded or was safely defused
  ```
@@ -54,8 +54,7 @@
  ```
 
 ### Part 3
-- Given a set of wires and their quantity, determine whether the bomb can be defused
-- You need to cut all the wires! You can't leave any untouched
+- Given a set of wires and their quantity, determine whether the bomb from part 2 can be defused. You need to cut all the wires! You can't leave any untouched
 
 - For each input, print out whether the bomb can be defused
 ```
